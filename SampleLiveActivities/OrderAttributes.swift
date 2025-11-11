@@ -9,11 +9,20 @@ import ActivityKit
 import Foundation
 
 // Live Activity の属性定義
-struct OrderAttributes: ActivityAttributes {
+public struct OrderAttributes: ActivityAttributes {
   public struct ContentState: Codable, Hashable {
     var status: String
     var estimatedDeliveryTime: Date
+
+    public init(status: String, estimatedDeliveryTime: Date) {
+      self.status = status
+      self.estimatedDeliveryTime = estimatedDeliveryTime
+    }
   }
 
-  var orderNumber: String
+  public var orderNumber: String
+
+  public init(orderNumber: String) {
+    self.orderNumber = orderNumber
+  }
 }

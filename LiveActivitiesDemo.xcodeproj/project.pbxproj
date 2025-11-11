@@ -74,12 +74,20 @@
 			);
 			target = B6005D6A2EC3757F0005FD07 /* SampleLiveActivitiesExtension */;
 		};
+		B6DB93432EC3966B00C17F6E /* Exceptions for "SampleLiveActivities" folder in "LiveActivitiesDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				OrderAttributes.swift,
+			);
+			target = B64543BF2EC36F18003D5D61 /* LiveActivitiesDemo */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B6005D712EC3757F0005FD07 /* SampleLiveActivities */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				B6DB93432EC3966B00C17F6E /* Exceptions for "SampleLiveActivities" folder in "LiveActivitiesDemo" target */,
 				B6005D812EC375800005FD07 /* Exceptions for "SampleLiveActivities" folder in "SampleLiveActivitiesExtension" target */,
 			);
 			path = SampleLiveActivities;

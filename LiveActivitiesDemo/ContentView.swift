@@ -14,7 +14,7 @@ struct ContentView: View {
     VStack {
       Button("Add Live Activity") {
         Task {
-          await startLiveActivity()
+          startLiveActivity()
         }
       }
       .padding(.top)
@@ -29,7 +29,7 @@ struct ContentView: View {
 
 // MARK: -
 
-func startLiveActivity() async {
+func startLiveActivity() {
   let attributes = OrderAttributes(orderNumber: "12345")
   let initialState = OrderAttributes.ContentState(
     status: "調理中",

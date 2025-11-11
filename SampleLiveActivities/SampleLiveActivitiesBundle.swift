@@ -11,8 +11,6 @@ import SwiftUI
 @main
 struct SampleLiveActivitiesBundle: WidgetBundle {
     var body: some Widget {
-//        SampleLiveActivities()
-//        SampleLiveActivitiesLiveActivity()
       OrderLiveActivityWidget()
     }
 }
