@@ -72,9 +72,9 @@ extension SampleLiveActivitiesAttributes.ContentState {
      }
 }
 
-#Preview("Notification", as: .content, using: SampleLiveActivitiesAttributes.preview) {
-   SampleLiveActivitiesLiveActivity()
-} contentStates: {
-    SampleLiveActivitiesAttributes.ContentState.smiley
-    SampleLiveActivitiesAttributes.ContentState.starEyes
-}
+//#Preview("Notification", as: .content, using: SampleLiveActivitiesAttributes.preview) {
+//   SampleLiveActivitiesLiveActivity()
+//} contentStates: {
+//    SampleLiveActivitiesAttributes.ContentState.smiley
+//    SampleLiveActivitiesAttributes.ContentState.starEyes
+//}

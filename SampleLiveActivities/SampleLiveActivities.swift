@@ -76,9 +76,9 @@ struct SampleLiveActivities: Widget {
     }
 }
 
-#Preview(as: .systemSmall) {
-    SampleLiveActivities()
-} timeline: {
-    SimpleEntry(date: .now, emoji: "😀")
-    SimpleEntry(date: .now, emoji: "🤩")
-}
+//#Preview(as: .systemSmall) {
+//    SampleLiveActivities()
+//} timeline: {
+//    SimpleEntry(date: .now, emoji: "😀")
+//    SimpleEntry(date: .now, emoji: "🤩")
+//}

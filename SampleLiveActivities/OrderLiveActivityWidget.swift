@@ -19,16 +19,6 @@ struct OrderLiveActivityWidget: Widget {
         Text(
           "お届け予定: \(context.state.estimatedDeliveryTime.formatted(date: .omitted, time: .shortened))"
         )
-        Text("注文番号: \(context.attributes.orderNumber)")
-        Text("ステータス: \(context.state.status)")
-        Text(
-          "お届け予定: \(context.state.estimatedDeliveryTime.formatted(date: .omitted, time: .shortened))"
-        )
-        Text("注文番号: \(context.attributes.orderNumber)")
-        Text("ステータス: \(context.state.status)")
-        Text(
-          "お届け予定: \(context.state.estimatedDeliveryTime.formatted(date: .omitted, time: .shortened))"
-        )
       }
       .padding()
     } dynamicIsland: { context in
@@ -55,10 +45,10 @@ struct OrderLiveActivityWidget: Widget {
     }
   }
 }
-
-#Preview("Order", as: .content, using: OrderAttributes(orderNumber: "12345"))
-{
-  OrderLiveActivityWidget()
-} contentStates: {
-  OrderAttributes.ContentState(status: "hoge", estimatedDeliveryTime: Date())
-}
+//
+//#Preview("Order", as: .content, using: OrderAttributes(orderNumber: "12345"))
+//{
+//  OrderLiveActivityWidget()
+//} contentStates: {
+//  OrderAttributes.ContentState(status: "hoge", estimatedDeliveryTime: Date())
+//}
