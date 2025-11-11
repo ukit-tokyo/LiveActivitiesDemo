@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct LiveActivitiesDemoApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
