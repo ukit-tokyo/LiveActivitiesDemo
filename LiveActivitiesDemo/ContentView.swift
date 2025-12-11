@@ -20,6 +20,9 @@ struct ContentView: View {
       .padding(.top)
     }
     .padding()
+    .onOpenURL(perform: { url in
+        print(url)
+    })
   }
 }
 
@@ -42,6 +45,7 @@ func startLiveActivity() {
       contentState: initialState,
       pushType: .token  // プッシュ通知での更新を可能にする
     )
+
     print("Live Activity started: \(activity.id)")
   } catch {
     print("Failed to start Live Activity: \(error)")
